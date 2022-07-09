@@ -57,7 +57,11 @@ public class Pet {
         return petRepository;
     }
     
-    public void newMethod(){}
+    public void newMethod(){
+    
+    System.out.println("MODEL");
+    
+    }
 
 
 
