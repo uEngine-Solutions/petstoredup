@@ -25,6 +25,8 @@ public class Pet {
     
     private int newProperty;
     private int prop2;
+    
+    private int prop3;
 
     @Embedded
     private Address address;
@@ -74,4 +76,5 @@ public class Pet {
     
     public void groom(){}
     public void test(){}
+    public void test2(){}
 }
