@@ -67,16 +67,13 @@ public class Pet {
 
     public void feed(FeedCommand feedCommand) {}
     
-<<<<<<< HEAD
     public void groom(){
 
         //This is my changes()
 
-=======
     public void groom(){}
     
     public void newMethod(){
->>>>>>> 94f9cf433cc8cdbe0c589896ad267c343841bfb8
     }
 
 }
