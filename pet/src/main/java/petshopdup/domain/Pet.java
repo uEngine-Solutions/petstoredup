@@ -13,16 +13,15 @@ import petshopdup.domain.PetRegistered;
 @DiscriminatorValue("pet")
 public class Pet {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long id;
-
     private String name;
 
     private int appearance;
 
-    private String newProp;
     
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private Long id;
+
 
 
     @Embedded
