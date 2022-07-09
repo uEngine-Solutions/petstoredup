@@ -65,6 +65,8 @@ public class Pet {
     
     public void groom(){}
     
+    
+    public void test(){}
 
 
 }
