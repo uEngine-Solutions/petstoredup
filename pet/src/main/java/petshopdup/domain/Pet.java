@@ -24,6 +24,8 @@ public class Pet {
     private int energy;
     
     private int prop2;
+    
+    private int prop3;
 
     @Embedded
     private Address address;
@@ -70,4 +72,5 @@ public class Pet {
     public void feed(FeedCommand feedCommand) {}
     
     public void test(){}
+    public void test2(){}
 }
