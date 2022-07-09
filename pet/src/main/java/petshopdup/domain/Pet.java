@@ -21,9 +21,7 @@ public class Pet {
 
     private int appearance;
 
-    private int energy;
-    
-    private int prop2;
+
     
     private int prop3;
 
@@ -65,9 +63,7 @@ public class Pet {
         //
     }
 
-    public void speak() {
-        //
-    }
+
 
     public void feed(FeedCommand feedCommand) {}
     
