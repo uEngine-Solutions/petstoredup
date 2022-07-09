@@ -14,8 +14,8 @@ public class PetHateoasProcessor
     public EntityModel<Pet> process(EntityModel<Pet> model) {
         model.add(
             Link
-                .of(model.getRequiredLink("self").getHref() + "/feed")
-                .withRel("feed")
+                .of(model.getRequiredLink("self").getHref() + "/feedFoods")
+                .withRel("feedFoods")
         );
 
         return model;
