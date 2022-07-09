@@ -21,6 +21,11 @@ public class Pet {
 
     private int appearance;
 
+
+    private int energy;
+    
+    private int newProperty;
+    private int prop2;
     
     private int prop3;
 
@@ -62,6 +67,12 @@ public class Pet {
         //
     }
 
+
+    public void speak() {
+
+        System.out.println("my changes");
+        //
+    }
 
     public void feed(FeedCommand feedCommand) {}
     
