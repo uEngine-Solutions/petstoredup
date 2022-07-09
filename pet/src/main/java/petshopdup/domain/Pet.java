@@ -69,9 +69,6 @@ public class Pet {
 
 
     public void speak() {
-
-        System.out.println("my changes");
-        //
     }
 
     public void feed(FeedCommand feedCommand) {}
@@ -79,4 +76,5 @@ public class Pet {
     public void groom(){}
     public void test(){}
     public void test2(){}
+    public void tset3(){}
 }
