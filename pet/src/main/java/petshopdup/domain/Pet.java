@@ -16,8 +16,7 @@ public class Pet {
 
     private String name;
 
-
-
+    
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
@@ -52,14 +51,9 @@ public class Pet {
         );
         return petRepository;
     }
+    
+    public void newMethod(){}
 
-    public void eat() {
-        //
-    }
-
-    public void sleep() {
-        //
-    }
 
 
     public void speak() {
@@ -73,6 +67,6 @@ public class Pet {
 
     public void groom(){}
     
-    public void newMethod(){}
+
 
 }
