@@ -73,7 +73,6 @@ public class Pet {
 
     public void groom(){}
     
-    public void newMethod(){
-    }
+    public void newMethod(){}
 
 }
