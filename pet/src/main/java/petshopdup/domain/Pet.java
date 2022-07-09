@@ -21,8 +21,6 @@ public class Pet {
 
     private int appearance;
 
-    private String newProp;
-    
 
 
     @Embedded
