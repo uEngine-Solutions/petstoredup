@@ -15,4 +15,6 @@ public class Address {
     private String state;
 
     private String detail;
+    
+    private String newProperty;
 }
