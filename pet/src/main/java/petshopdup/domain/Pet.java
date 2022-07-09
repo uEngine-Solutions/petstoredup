@@ -63,12 +63,13 @@ public class Pet {
 
 
     public void speak() {
-
-        System.out.println("tsetsetteet");
     }
 
     public void feed(FeedCommand feedCommand) {}
     
     public void groom(){}
+    
+    public void newMethod(){
+    }
 
 }
