@@ -21,8 +21,7 @@ public class Pet {
 
     private int appearance;
 
-
-    private int energy;
+    private String newProp;
     
 
 
