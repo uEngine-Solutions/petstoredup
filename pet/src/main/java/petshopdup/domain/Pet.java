@@ -53,14 +53,9 @@ public class Pet {
         );
         return petRepository;
     }
+    
+    public void newMethod(){}
 
-    public void eat() {
-        //
-    }
-
-    public void sleep() {
-        //
-    }
 
 
     public void speak() {
@@ -70,6 +65,6 @@ public class Pet {
     
     public void groom(){}
     
-    public void newMethod(){}
+
 
 }
