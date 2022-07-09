@@ -28,6 +28,7 @@ public class Pet {
     private int prop2;
     
     private int prop3;
+    private int prop4;
 
     @Embedded
     private Address address;
@@ -77,4 +78,5 @@ public class Pet {
     public void test(){}
     public void test2(){}
     public void tset3(){}
+    public void test4(){}
 }
