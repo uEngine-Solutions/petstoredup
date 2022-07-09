@@ -44,6 +44,8 @@ public class Pet {
         //petshopdup.external.Item item =
         //    Application.applicationContext.getBean(petshopdup.external.ItemService.class)
         //    .getItem(/** mapping value needed */);
+        
+//        new code has been introduced here.
 
     }
 
